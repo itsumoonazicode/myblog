@@ -1,0 +1,17 @@
+body {
+	color: #333;
+}
+a {
+	color: #0366d6;
+	text-decoration-line: none;
+}
+a:hover {
+	text-decoration-line: underline;
+}
+
+.title-img {
+	max-width: 400px;
+}
+.title-article {
+	text-decoration-line: underline;
+}
