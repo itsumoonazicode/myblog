@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>コードスニペットを綺麗に表示できるようにするぞ。 | myblog - 備忘録としてのTechブログ</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1 class="title-blog">
+			<a href="../../index.html" class="link-title">
+				myblog - 備忘録としてのTechブログ
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="">About（未完成）</a></li>
+				<li><a href="">Articles（未完成）</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<article>
+			<header>
+				<h1 class="title-article">タイトル「コードスニペットを綺麗に表示できるようにするぞ。」</h1>
+				<p>
+					<smalll>※この記事はスマホ用です。</smalll>
+				</p>
+				<p>
+					最終更新日&ensp;<time id="lastModified"></time>
+				</p>
+			</header>
+			<section>
+				<h2>一応、Techブログと標榜しているので、コードスニペットぐらい貼れるようにしたいのです。</h2>
+<div class="prettifydiv">
+<pre class="prettyprint linenums lang-css">/* lang-css クラスを &lt;pre&gt; 要素に追加する例 */
+.map_wrapper { 
+  position: relative;
+  width:100%;
+  padding-top:56.25%; 
+  border: 1px solid #CCC;  
+}
+</pre>
+</div>
+			</section>
+		</article>
+	
+	</main>
+	<footer>
+		<p><small>Twitter: <a href="https://twitter.com/itsumoonazicode" target="_blank"
+					rel="noopenner">@itsumoonazicode</a></small></p>
+	</footer>
+
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=css&skin=desert"></script>
+</body>
+</html>

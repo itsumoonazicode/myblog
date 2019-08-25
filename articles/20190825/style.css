@@ -1,0 +1,36 @@
+html {
+	font-size: 10px;
+}
+body {
+	background-color: #fdfafa;
+	box-sizing: border-box;
+	padding: 0 4em;
+	padding-top: 2em;
+	color: #333;
+}
+
+.title-blog {
+	font-size: 1em;
+	text-align: center;
+}
+
+nav > ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+	margin-top: 4em;
+}
+
+.title-article {
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+article > header > p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+li[class^="L"] {
+	list-style-type: inherit !important;
+}
